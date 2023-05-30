@@ -7,9 +7,7 @@ Injector::Injector(const char* target, const char* dllPath) {
 	this->dllPath = dllPath;
 }
 
-Injector::Injector()
-{
-}
+Injector::Injector() {}
 
 // destructor
 Injector::~Injector(){

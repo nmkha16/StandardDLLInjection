@@ -9,9 +9,6 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-
-
-
 class Injector {
 private:
 	// attributes
@@ -34,6 +31,5 @@ public:
 	Injector();
 	// destructor
 	~Injector();
-	// using reflective injection method to load dll from memory rather than disk file. Thanks to Stephen Fewer
 	void Inject();
 };
