@@ -16,3 +16,9 @@ A standard Injection using traditional method, most likely will be detected by m
 Download compiled on Release. Run .exe, it will ask for exe path & dll path. Then start your target program to initiate injecting.
 
 You can compile it yourself if needed.
+
+## Video
+
+
+https://github.com/nmkha16/StandardDLLInjection/assets/91834063/84c1c9e2-f0d4-4e93-95ef-30d06b4217fd
+
