@@ -29,6 +29,7 @@ public:
 	// constructor
 	Injector(const char* target, const char* dllPath);
 	Injector();
+	void Initialize(const char* target, const char* dllPath);
 	// destructor
 	~Injector();
 	void Inject();

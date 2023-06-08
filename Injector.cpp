@@ -9,6 +9,12 @@ Injector::Injector(const char* target, const char* dllPath) {
 
 Injector::Injector() {}
 
+void Injector::Initialize(const char* target, const char* dllPath)
+{
+	this->targetProc = target;
+	this->dllPath = dllPath;
+}
+
 // destructor
 Injector::~Injector(){
 	delete[] dllPath;
