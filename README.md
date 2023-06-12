@@ -15,7 +15,10 @@ A standard Injection using traditional method, most likely will be detected by m
 ## How to use:
 
 1. Run .exe, it will ask for exe path & dll path. Then start your target program to initiate injecting.
-2. Cmd: ./StandardDLLInjection.exe "<your_exe_path" "your_dll_path"
+2. Cmd
+>  ./StandardDLLInjection.exe "<your_exe_path>" "<your_dll_path>" 
+3. Easy bat script, place it in the same directory where the injection program is
+> start StandardDLLInjection.exe "<your_exe_path>" "<your_dll_path>"
  
 You can compile it yourself if you want to.
 
